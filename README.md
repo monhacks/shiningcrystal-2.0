@@ -47,3 +47,11 @@ Other disassembly projects:
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
 [travis]: https://travis-ci.org/pret/pokecrystal
 [travis-badge]: https://travis-ci.org/pret/pokecrystal.svg?branch=master
+
+# shiningcrystal
+
+shiningcrystal is an improved version of the [pokecrystal disassembly](https://github.com/pret/pokecrystal) intended to be the definitive vanilla Crystal
+experience.
+
+If you would like to contribute, feel free to send a PR, or fork the project! 😃
+Please leave credits in your readme to @pret and @FieryMewtwo if you fork and don't use it to PR.
