@@ -55,3 +55,10 @@ experience.
 
 If you would like to contribute, feel free to send a PR, or fork the project! 😃
 Please leave credits in your readme to @pret and @FieryMewtwo if you fork and don't use it to PR.
+
+
+# FAQ 
+**Q** Why is this a fork of pokecrystal?
+
+**A** A fork made it easier for us to fetch upstream commits from pokecrystal
+
