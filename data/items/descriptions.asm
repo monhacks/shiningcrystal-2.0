@@ -280,7 +280,7 @@ PokeBallDesc:
 	next "ing #MON.@"
 
 TeruSama1Desc:
-	db   "?@"
+	db   "nerd.@"
 
 BicycleDesc:
 	db   "A collapsible bike"
@@ -292,23 +292,23 @@ MoonStoneDesc:
 
 AntidoteDesc:
 	db   "Cures poisoned"
-	next "#MON.@"
+	next "#mon.@"
 
 BurnHealDesc:
 	db   "Heals burned"
-	next "#MON.@"
+	next "#mon.@"
 
 IceHealDesc:
 	db   "Defrosts frozen"
-	next "#MON.@"
+	next "#mon.@"
 
 AwakeningDesc:
 	db   "Awakens sleeping"
-	next "#MON.@"
+	next "#mon.@"
 
 ParlyzHealDesc:
 	db   "Heals paralyzed"
-	next "#MON.@"
+	next "#mon.@"
 
 FullRestoreDesc:
 	db   "Fully restores HP"
@@ -355,7 +355,7 @@ WaterStoneDesc:
 	next "kinds of #MON.@"
 
 TeruSama2Desc:
-	db   "?@"
+	db   "loser.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
@@ -434,7 +434,7 @@ DireHitDesc:
 	next "ratio. (1 BTL)@"
 
 TeruSama3Desc:
-	db   "?@"
+	db   "(cries)@"
 
 FreshWaterDesc:
 	db   "Restores #MON"
@@ -453,7 +453,7 @@ XAttackDesc:
 	next "(1 BTL)@"
 
 TeruSama4Desc:
-	db   "?@"
+	db   "(dies)@"
 
 XDefendDesc:
 	db   "Raises DEFENSE."
@@ -609,7 +609,7 @@ BluApricornDesc:
 	db   "A blue APRICORN.@"
 
 TeruSama6Desc:
-	db   "?@"
+	db   "you killed me@"
 
 AmuletCoinDesc:
 	db   "Doubles monetary"
@@ -645,7 +645,7 @@ BlkApricornDesc:
 	next "@"
 
 TeruSama7Desc:
-	db   "?@"
+	db   "baka@"
 
 PnkApricornDesc:
 	db   "A pink APRICORN."
@@ -724,7 +724,7 @@ FocusBandDesc:
 	next "ing. (HOLD)@"
 
 TeruSama8Desc:
-	db   "?@"
+	db   "h o n k@"
 
 EnergyPowderDesc:
 	db   "Restores #MON"
@@ -782,13 +782,13 @@ PassDesc:
 	next "MAGNET TRAIN.@"
 
 TeruSama9Desc:
-	db   "?@"
+	db   "Try a flash cart.@"
 
 TeruSama10Desc:
-	db   "?@"
+	db   "Why did you do this?@"
 
 TeruSama11Desc:
-	db   "?@"
+	db   "Hello from FieryM2!@"
 
 CharcoalDesc:
 	db   "Powers up fire-"
@@ -803,10 +803,10 @@ ScopeLensDesc:
 	next "hit ratio. (HOLD)@"
 
 TeruSama12Desc:
-	db   "?@"
+	db   "NEVER DO THAT AGAIN@"
 
 TeruSama13Desc:
-	db   "?@"
+	db   "Caught you.@"
 
 MetalCoatDesc:
 	db   "Powers up steel-"
@@ -817,20 +817,20 @@ DragonFangDesc:
 	next "type moves. (HOLD)@"
 
 TeruSama14Desc:
-	db   "?@"
+	db   "why did you?@"
 
 LeftoversDesc:
 	db   "Restores HP during"
 	next "battle. (HOLD)@"
 
 TeruSama15Desc:
-	db   "?@"
+	db   "idiot.@"
 
 TeruSama16Desc:
-	db   "?@"
+	db   "no u@"
 
 TeruSama17Desc:
-	db   "?@"
+	db   "i am angry@"
 
 MysteryBerryDesc:
 	db   "A self-restore"
@@ -845,37 +845,37 @@ BerserkGeneDesc:
 	next "causes confusion.@"
 
 TeruSama18Desc:
-	db   "?@"
+	db   "i hate u@"
 
 TeruSama19Desc:
-	db   "?@"
+	db   ">:(@"
 
 TeruSama20Desc:
-	db   "?@"
+	db   "u suuuuckk@"
 
 SacredAshDesc:
 	db   "Fully revives all"
-	next "fainted #MON.@"
+	next "fainted #mon.@"
 
 HeavyBallDesc:
-	db   "A BALL for catch-"
-	next "ing heavy #MON.@"
+	db   "A Ball for catch-"
+	next "ing heavy #mon.@"
 
 FlowerMailDesc:
-	db   "Flower-print MAIL."
+	db   "Flower-print Mail."
 	next "(HOLD)@"
 
 LevelBallDesc:
-	db   "A BALL for lower-"
-	next "level #MON.@"
+	db   "A Ball for lower-"
+	next "level #mon.@"
 
 LureBallDesc:
-	db   "A BALL for #MON"
-	next "hooked by a ROD.@"
+	db   "A Ball for #mon"
+	next "hooked by a Rod.@"
 
 FastBallDesc:
-	db   "A BALL for catch-"
-	next "ing fast #MON.@"
+	db   "A Ball for catch-"
+	next "ing fast #mon.@"
 
 TeruSama21Desc:
 	db   "?@"
@@ -889,8 +889,8 @@ FriendBallDesc:
 	next "#MON friendly.@"
 
 MoonBallDesc:
-	db   "A BALL for MOON"
-	next "STONE evolvers.@"
+	db   "A Ball for Moon"
+	next "Stone evolvers.@"
 
 LoveBallDesc:
 	db   "For catching the"
@@ -906,18 +906,18 @@ GorgeousBoxDesc:
 
 SunStoneDesc:
 	db   "Evolves certain"
-	next "kinds of #MON.@"
+	next "kinds of #mon.@"
 
 PolkadotBowDesc:
-	db   "Powers up normal-"
+	db   "Powers up fairy-"
 	next "type moves. (HOLD)@"
 
 TeruSama22Desc:
-	db   "?@"
+	db   "cheater.@"
 
 UpGradeDesc:
 	db   "A mysterious box"
-	next "made by SILPH CO.@"
+	next "made by Silph Co.@"
 
 BerryDesc:
 	db   "A self-restore"
@@ -936,29 +936,29 @@ TeruSama23Desc:
 
 ParkBallDesc:
 	db   "The Bug-Catching"
-	next "Contest BALL.@"
+	next "Contest Ball.@"
 
 RainbowWingDesc:
 	db   "A mystical feather"
 	next "of rainbow colors.@"
 
 TeruSama24Desc:
-	db   "?@"
+	db   "You CHEATER!@"
 
 BrickPieceDesc:
 	db   "A rare chunk of"
 	next "tile.@"
 
 SurfMailDesc:
-	db   "LAPRAS-print MAIL."
+	db   "Lapras-print Mail."
 	next "(HOLD)@"
 
 LiteBlueMailDesc:
-	db   "DRATINI-print"
-	next "MAIL. (HOLD)@"
+	db   "Dratini-print"
+	next "Mail. (HOLD)@"
 
 PortraitMailDesc:
-	db   "MAIL featuring the"
+	db   "Mail featuring the"
 	next "holder's likeness.@"
 
 LovelyMailDesc:
@@ -966,15 +966,15 @@ LovelyMailDesc:
 	next "(HOLD)@"
 
 EonMailDesc:
-	db   "EEVEE-print MAIL."
+	db   "Eevee-print Mail."
 	next "(HOLD)@"
 
 MorphMailDesc:
-	db   "DITTO-print MAIL."
+	db   "Ditto-print Mail."
 	next "(HOLD)@"
 
 BlueSkyMailDesc:
-	db   "Sky-print MAIL."
+	db   "Sky-print Mail."
 	next "(HOLD)@"
 
 MusicMailDesc:
@@ -986,28 +986,28 @@ MirageMailDesc:
 	next "(HOLD)@"
 
 TeruSama25Desc:
-	db   "?@"
+	db   "Never gonna give@"
 
 TeruSama26Desc:
-	db   "?@"
+	db   "you up, never gonna@"
 
 TeruSama27Desc:
-	db   "?@"
+	db   "let you down, never@"
 
 TeruSama28Desc:
-	db   "?@"
+	db   "gonna run around@"
 
 TeruSama29Desc:
-	db   "?@"
+	db   "and desert you.@"
 
 TeruSama30Desc:
-	db   "?@"
+	db   "Thanks endrift!@"
 
 TeruSama31Desc:
-	db   "?@"
+	db   "Thanks John!@"
 
 TeruSama32Desc:
-	db   "?@"
+	db   "Thanks Rangi!@"
 
 TeruSama33Desc:
-	db   "?@"
+	db   "Thanks Darsh!@"
