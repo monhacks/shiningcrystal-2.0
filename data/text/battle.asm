@@ -120,13 +120,13 @@ BattleText_SafeguardFaded:
 
 BattleText_MonsLightScreenFell:
 	text_ram wStringBuffer1
-	text " #MON's"
+	text " #mon's"
 	line "LIGHT SCREEN fell!"
 	prompt
 
 BattleText_MonsReflectFaded:
 	text_ram wStringBuffer1
-	text " #MON's"
+	text " #mon's"
 	line "REFLECT faded!"
 	prompt
 
@@ -202,7 +202,7 @@ SentAllToMomText:
 UnusedRivalLossText: ; unreferenced
 	text "<RIVAL>: Huh? I"
 	line "should've chosen"
-	cont "your #MON!"
+	cont "your #mon!"
 	prompt
 
 BattleText_MonFainted:
@@ -212,13 +212,13 @@ BattleText_MonFainted:
 	prompt
 
 BattleText_UseNextMon:
-	text "Use next #MON?"
+	text "Use next #mon?"
 	done
 
 UnusedRivalWinText: ; unreferenced
 	text "<RIVAL>: Yes!"
 	line "I guess I chose a"
-	cont "good #MON!"
+	cont "good #mon!"
 	prompt
 
 LostAgainstText:
@@ -234,7 +234,7 @@ BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 	text "."
 
 	para "Will <PLAYER>"
-	line "change #MON?"
+	line "change #mon?"
 	done
 
 BattleText_EnemySentOut:
@@ -251,7 +251,7 @@ BattleText_TheresNoWillToBattle:
 	prompt
 
 BattleText_AnEGGCantBattle:
-	text "An EGG can't"
+	text "An Egg can't"
 	line "battle!"
 	prompt
 
@@ -632,12 +632,12 @@ TookDownWithItText:
 
 RageBuildingText:
 	text "<USER>'s"
-	line "RAGE is building!"
+	line "rage is building!"
 	prompt
 
 GotAnEncoreText:
 	text "<TARGET>"
-	line "got an ENCORE!"
+	line "got an encore!"
 	prompt
 
 SharedPainText:
@@ -652,7 +652,7 @@ TookAimText:
 
 SketchedText:
 	text "<USER>"
-	line "SKETCHED"
+	line "sketched"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -774,12 +774,12 @@ EnemyHitTimesText:
 
 MistText:
 	text "<USER>'s"
-	line "shrouded in MIST!"
+	line "shrouded in mist!"
 	prompt
 
 ProtectedByMistText:
 	text "<TARGET>'s"
-	line "protected by MIST."
+	line "protected by mist."
 	prompt
 
 GettingPumpedText:
@@ -795,28 +795,28 @@ RecoilText:
 
 MadeSubstituteText:
 	text "<USER>"
-	line "made a SUBSTITUTE!"
+	line "made a Substitute!"
 	prompt
-
+	
 HasSubstituteText:
 	text "<USER>"
-	line "has a SUBSTITUTE!"
+	line "has a Substitute!"
 	prompt
 
 TooWeakSubText:
 	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	line "a Substitute!"
 	prompt
 
 SubTookDamageText:
-	text "The SUBSTITUTE"
+	text "The Substitute"
 	line "took damage for"
 	cont "<TARGET>!"
 	prompt
 
 SubFadedText:
 	text "<TARGET>'s"
-	line "SUBSTITUTE faded!"
+	line "substitute faded!"
 	prompt
 
 MimicLearnedMoveText:
@@ -842,7 +842,7 @@ WasDisabledText:
 	line "@"
 	text_ram wStringBuffer1
 	text " was"
-	cont "DISABLED!"
+	cont "disabled!"
 	prompt
 
 CoinsScatteredText:
@@ -865,7 +865,7 @@ EliminatedStatsText:
 
 TransformedText:
 	text "<USER>"
-	line "TRANSFORMED into"
+	line "Transformed into"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -873,12 +873,12 @@ TransformedText:
 
 LightScreenEffectText:
 	text "<USER>'s"
-	line "SPCL.DEF rose!"
+	line "Spcl.Def rose!"
 	prompt
 
 ReflectEffectText:
 	text "<USER>'s"
-	line "DEFENSE rose!"
+	line "Defense rose!"
 	prompt
 
 NothingHappenedText:
@@ -939,7 +939,7 @@ ProtectedByText:
 	prompt
 
 MirrorMoveFailedText:
-	text "The MIRROR MOVE"
+	text "The Mirror Move"
 	next "failed!"
 	prompt
 
@@ -959,7 +959,7 @@ CantEscapeNowText:
 StartedNightmareText:
 	text "<TARGET>"
 	line "started to have a"
-	cont "NIGHTMARE!"
+	cont "nightmare!"
 	prompt
 
 WasDefrostedText:
@@ -971,22 +971,22 @@ PutACurseText:
 	text "<USER>"
 	line "cut its own HP and"
 
-	para "put a CURSE on"
+	para "put a curse on"
 	line "<TARGET>!"
 	prompt
 
 ProtectedItselfText:
 	text "<USER>"
-	line "PROTECTED itself!"
+	line "protected itself!"
 	prompt
 
 ProtectingItselfText:
 	text "<TARGET>'s"
-	line "PROTECTING itself!"
+	line "protecting itself!"
 	done
 
 SpikesText:
-	text "SPIKES scattered"
+	text "Spikes scattered"
 	line "all around"
 	cont "<TARGET>!"
 	prompt
@@ -998,12 +998,12 @@ IdentifiedText:
 	prompt
 
 StartPerishText:
-	text "Both #MON will"
+	text "Both #mon will"
 	line "faint in 3 turns!"
 	prompt
 
 SandstormBrewedText:
-	text "A SANDSTORM"
+	text "A sandstorm"
 	line "brewed!"
 	prompt
 
@@ -1025,7 +1025,7 @@ CoveredByVeilText:
 SafeguardProtectText:
 	text "<TARGET>"
 	line "is protected by"
-	cont "SAFEGUARD!"
+	cont "Safeguard!"
 	prompt
 
 MagnitudeText:
@@ -1042,12 +1042,12 @@ ReleasedByText:
 
 ShedLeechSeedText:
 	text "<USER>"
-	line "shed LEECH SEED!"
+	line "shed Leech Seed!"
 	prompt
 
 BlewSpikesText:
 	text "<USER>"
-	line "blew away SPIKES!"
+	line "blew away Spikes!"
 	prompt
 
 DownpourText:
@@ -1063,7 +1063,7 @@ SunGotBrightText:
 BellyDrumText:
 	text "<USER>"
 	line "cut its HP and"
-	cont "maximized ATTACK!"
+	cont "maximized attack!"
 	prompt
 
 CopiedStatsText:
