@@ -8,7 +8,7 @@ BattleText_PlayerPickedUpPayDayMoney:
 	prompt
 
 WildPokemonAppearedText:
-	text "Wild @"
+	text "A wild @"
 	text_ram wEnemyMonNickname
 	text_start
 	line "appeared!"
@@ -29,7 +29,7 @@ PokemonFellFromTreeText:
 	prompt
 
 WildCelebiAppearedText:
-	text "Wild @"
+	text "@"
 	text_ram wEnemyMonNickname
 	text_start
 	line "appeared!"
@@ -41,7 +41,7 @@ WantsToBattleText::
 	prompt
 
 BattleText_WildFled:
-	text "Wild @"
+	text "The wild @"
 	text_ram wEnemyMonNickname
 	text_start
 	line "fled!"
@@ -65,18 +65,18 @@ HurtByBurnText:
 	prompt
 
 LeechSeedSapsText:
-	text "LEECH SEED saps"
+	text "Leech Seed saps"
 	line "<USER>!"
 	prompt
 
 HasANightmareText:
 	text "<USER>"
-	line "has a NIGHTMARE!"
+	line "has a nightmare!"
 	prompt
 
 HurtByCurseText:
 	text "<USER>'s"
-	line "hurt by the CURSE!"
+	line "hurt by the curse!"
 	prompt
 
 SandstormHitsText:
@@ -109,25 +109,25 @@ BattleText_UserRecoveredPPUsing:
 
 BattleText_TargetWasHitByFutureSight:
 	text "<TARGET>"
-	line "was hit by FUTURE"
-	cont "SIGHT!"
+	line "was hit by Future"
+	cont "Sight!"
 	prompt
 
 BattleText_SafeguardFaded:
 	text "<USER>'s"
-	line "SAFEGUARD faded!"
+	line "safeguard faded!"
 	prompt
 
 BattleText_MonsLightScreenFell:
 	text_ram wStringBuffer1
 	text " #mon's"
-	line "LIGHT SCREEN fell!"
+	line "Light Screen fell!"
 	prompt
 
 BattleText_MonsReflectFaded:
 	text_ram wStringBuffer1
 	text " #mon's"
-	line "REFLECT faded!"
+	line "Reflect faded!"
 	prompt
 
 BattleText_RainContinuesToFall:
@@ -141,7 +141,7 @@ BattleText_TheSunlightIsStrong:
 	prompt
 
 BattleText_TheSandstormRages:
-	text "The SANDSTORM"
+	text "The Sandstorm"
 	line "rages."
 	prompt
 
@@ -155,7 +155,7 @@ BattleText_TheSunlightFaded:
 	prompt
 
 BattleText_TheSandstormSubsided:
-	text "The SANDSTORM"
+	text "The sandstorm"
 	line "subsided."
 	prompt
 
@@ -188,15 +188,15 @@ SentSomeToMomText:
 	text_decimal wBattleReward, 3, 6
 	text_start
 	line "for winning!"
-	cont "Sent some to MOM!"
+	cont "Sent some to Mom!"
 	prompt
 
 SentHalfToMomText:
-	text "Sent half to MOM!"
+	text "Sent half to Mom!"
 	prompt
 
 SentAllToMomText:
-	text "Sent all to MOM!"
+	text "Sent all to Mom!"
 	prompt
 
 UnusedRivalLossText: ; unreferenced
@@ -283,7 +283,7 @@ BattleText_CantEscape:
 
 BattleText_UserHurtBySpikes:
 	text "<USER>'s"
-	line "hurt by SPIKES!"
+	line "hurt by spikes!"
 	prompt
 
 RecoveredUsingText:
@@ -325,8 +325,8 @@ BattleText_TheresNoPPLeftForThisMove:
 	prompt
 
 BattleText_TheMoveIsDisabled:
-	text "The move is"
-	line "DISABLED!"
+	text "This move is"
+	line "disabled."
 	prompt
 
 BattleText_MonHasNoMovesLeft:
@@ -337,7 +337,7 @@ BattleText_MonHasNoMovesLeft:
 
 BattleText_TargetsEncoreEnded:
 	text "<TARGET>'s"
-	line "ENCORE ended!"
+	line "encore ended!"
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
@@ -446,7 +446,7 @@ BattleText_UserWasReleasedFromStringBuffer1:
 
 UsedBindText:
 	text "<USER>"
-	line "used BIND on"
+	line "used Bind on"
 	cont "<TARGET>!"
 	prompt
 
@@ -462,13 +462,13 @@ FireSpinTrapText:
 
 WrappedByText:
 	text "<TARGET>"
-	line "was WRAPPED by"
+	line "was wrapped by"
 	cont "<USER>!"
 	prompt
 
 ClampedByText:
 	text "<TARGET>"
-	line "was CLAMPED by"
+	line "was clamped by"
 	cont "<USER>!"
 	prompt
 
@@ -492,7 +492,7 @@ HungOnText:
 
 EnduredText:
 	text "<TARGET>"
-	line "ENDURED the hit!"
+	line "endured the hit!"
 	prompt
 
 InLoveWithText:
@@ -512,7 +512,7 @@ DisabledMoveText:
 	line "@"
 	text_ram wStringBuffer1
 	text " is"
-	cont "DISABLED!"
+	cont "disabled!"
 	prompt
 
 LoafingAroundText:
