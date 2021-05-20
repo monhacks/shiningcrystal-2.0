@@ -1,5 +1,5 @@
 # FAQ
-
+This FAQ has pret's section at the top, and the shiningcrystal FAQ at the bottom.
 
 ## Questions
 
@@ -121,3 +121,9 @@ Try asking on Discord or IRC (see [README.md](README.md)).
 [hastebin]: https://hastebin.com/
 [forkhelp]: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
 [snippethelp]: https://help.github.com/en/github/managing-your-work-on-github/creating-a-permanent-link-to-a-code-snippet
+
+
+# shiningcrystal
+
+Q: **Where can I find Celebi?**
+A: **Just go to the Goldenrod Pokecenter after getting all 8 Johto badges.**
