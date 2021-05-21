@@ -947,8 +947,15 @@ DoRepelStep:
 	ld [wRepelEffect], a
 	ret nz
 
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
 	ld a, BANK(RepelWoreOffScript)
 	ld hl, RepelWoreOffScript
+	jr nc, .got_script
+	ld a, BANK(UseAnotherRepelScript)
+	ld hl, UseAnotherRepelScript
+.got_scipt
 	call CallScript
 	scf
 	ret
