@@ -62,3 +62,6 @@ Please leave credits in your readme to @pret and @FieryMewtwo if you fork and do
 
 **A** A fork made it easier for us to fetch upstream commits from pokecrystal
 
+**Q** How do I get Celebi?
+**A** Easy. Just get all 8 badges and go to Goldenrod's Pokecenter, then take the GS Ball to the shrine in Ilex Forest.
+
