@@ -126,4 +126,4 @@ Try asking on Discord or IRC (see [README.md](README.md)).
 # shiningcrystal
 
 Q: **Where can I find Celebi?**
-A: **Just go to the Goldenrod Pokecenter after getting all 8 Johto badges.**
+A: **Just go to the Goldenrod Pokecenter after getting all 8 Johto badges, then put the GS Ball into the shrine.**
