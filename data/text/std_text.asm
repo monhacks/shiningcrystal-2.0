@@ -11,12 +11,17 @@ NurseDayText:
 	done
 
 NurseNiteText:
-	text "Good evening!"
+	text "Hi!"
 	line "You're out late."
 
 	para "Welcome to our"
 	line "#MON CENTER."
 	done
+
+NurseEveText:
+        text "Good evening!"
+	line "Welcome to our"
+	cont "#MON CENTER."
 
 PokeComNurseMornText:
 	text "Good morning!"
